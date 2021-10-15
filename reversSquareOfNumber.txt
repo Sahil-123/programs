@@ -1,0 +1,12 @@
+int main()
+{
+   int inputNumber;
+   scanf("%d",&inputNumber);
+  while(inputNumber!=0){
+       int result=inputNumber%10;
+       printf("%d",result*result);
+       inputNumber/=10;
+   }
+   
+   return 0;
+}
